@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+.sidebar .active {
+    background-color: #007bff;
+    color: white;
+}
+
+.sidebar .collapse {
+    display: none;
+}
+
+.sidebar .collapse.show {
+    display: block;
+}
+
+.sidebar .toggle {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sidebar .toggle:hover {
+    color: #007bff;
+}
